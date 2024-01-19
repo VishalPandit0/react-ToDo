@@ -62,7 +62,7 @@ const App = () => {
               return (
         <div key={ind} className='my-10 flex flex-row items-center justify-center space-x-4'>
         <FaCheckSquare className=' hover:text-red-500 active:text-red-500 mt-[3px]' size={20} />
-          <div className='text-2xl '>{elem}</div>
+          <div className='text-1xl font-semibold '>{elem}</div>
           <RiDeleteBinLine onClick={()=>{handleDelete(ind)}} className='hover:text-red-500 mt-[3px] ' size={20} />
         </div>)
             })}
